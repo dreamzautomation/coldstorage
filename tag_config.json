@@ -1,0 +1,14 @@
+{
+  "tags": [
+    { "name": "Temperature1", "db": 24, "start": 0, "type": "REAL", "alarm_high": 20 },
+    { "name": "Temperature2", "db": 24, "start": 4, "type": "REAL", "alarm_high": 20 },
+    { "name": "Temperature3", "db": 24, "start": 8, "type": "REAL", "alarm_high": 20 },
+    { "name": "Temperature4", "db": 24, "start": 12, "type": "REAL", "alarm_high": 20 },
+    { "name": "Temperature5", "db": 24, "start": 16, "type": "REAL", "alarm_high": 20 },
+    { "name": "Door1Status", "db": 25, "start": 0, "bit": 0, "type": "BOOL", "alarm_if": 1 },
+    { "name": "Door2Status", "db": 25, "start": 0, "bit": 1, "type": "BOOL", "alarm_if": 1 },
+    { "name": "Door3Status", "db": 25, "start": 0, "bit": 2, "type": "BOOL", "alarm_if": 1 },
+    { "name": "Door4Status", "db": 25, "start": 0, "bit": 3, "type": "BOOL", "alarm_if": 1 },
+    { "name": "Door5Status", "db": 25, "start": 0, "bit": 4, "type": "BOOL", "alarm_if": 1 }
+  ]
+}

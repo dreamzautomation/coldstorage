@@ -1,0 +1,12 @@
+[Unit]
+Description=PLC Logger Service
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /home/user/iot2050_plc_dashboard/plc_logger.py
+WorkingDirectory=/home/user/iot2050_plc_dashboard
+Restart=always
+User=user
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,12 @@
+[Unit]
+pip Description=PLC Streamlit Dashboard
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/streamlit run /home/user/iot2050_plc_dashboard/plc_dashboard.py --server.port 8501 --server.headless true
+WorkingDirectory=/home/user/iot2050_plc_dashboard
+Restart=always
+User=user
+
+[Install]
+WantedBy=multi-user.target
